@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body
+        {
+            background-image: url('prac 2.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        div
+        {
+            margin:0 auto;
+            width: 700px;
+            height: 450px;
+            border: 2px solid orange;
+            background-color: white;
+        }
+        h1
+        {
+            color:orange;
+            text-align: center;
+        }
+        p
+        {
+            text-align:center;
+            color:black;
+        }
+        form
+        {
+            padding:5px;
+            
+        }
+        input
+        {
+            width: 680px;
+            height: 30px;
+        }
+    </style>
+    <div>
+    <body>
+        <h1><b>Book a call</b></h1>
+        <p>Booka a call slot and our representatice will call you within 1hr of selected time.-</p>
+        <hr>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" id="name";><br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email";><br><br>
+            <label for="phone">Phone:</label><br>
+            <input type="text"name="phone" id="phone" ><br><br>
+            <label for="call_time">Time for Call:</label><br>
+            <input type="date" name="call_time" id="call_time" style="width:340px" style="height:30px";>
+            <input type="time" style="width:335px" style="height:30px";><br><br>
+            <input type="button" value="GET A CALL" style="background-color: orange;font-family:fangsong;">
+        </form>
+    </body>
+    </div>
+</html>

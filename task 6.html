@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body
+        {
+            background-image: url('prac_2.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        .container
+        {
+            margin:0 auto;
+            width: 550px;
+            height: 420px;
+            border: 2px solid rgb(216, 14, 14);
+            background-color: white;
+        }
+        h1
+        {
+            color:orange;
+            text-align: center;
+        }
+        p
+        {
+            text-align:center;
+            color:black;
+        }
+        form{
+            padding-left:10px;
+        }
+        div{
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        input[type='text']{
+            width: 96%;
+            height:20px;
+            border-radius: 5px;
+        }
+        input[type='button']{
+            width: 96%;
+            height:30px;
+            border-radius: 5px;
+        }
+        
+    </style>
+    <section class="container">
+    <body>
+        <h1><b>Book a call</b></h1>
+        <p>Book a call slot and our representative will call you within 1hr of selected time.-</p>
+        <hr>
+        <form>
+            <div>
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name";>
+            </div>
+            <div><label for="email">Email:</label><br>
+            <input type="text" name="email" id="email";>
+            </div>
+            <div><label for="phone">Phone:</label><br>
+            <input type="text"name="phone" id="phone" >
+            </div>
+            <div><label for="call_time">Time for Call:</label><br>
+            <input type="date" name="date" id="call_time" style="width:47%;height:20px;border-radius: 5px";>
+            <input type="time" name="time" id="call_time" style="width:47%;height:20px;border-radius: 5px";>
+            </div>
+            <div>
+                <input type="button" value="GET A CALL" style="background-color: orange;font-family:fangsong;">
+            </div>
+            
+        </form>
+    </body>
+    </section>
+</html>

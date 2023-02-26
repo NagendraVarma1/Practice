@@ -1,0 +1,39 @@
+
+        body
+        {
+            background-image: url('prac_2.jpg');
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        #div1
+        {
+            margin:0 auto;
+            width: 600px;
+            height: 450px;
+            border: 2px solid orange;
+            background-color: white;
+        }
+        #div3
+        {
+            margin:0 auto;
+            width:100%;
+            height: 20%;
+        }
+        h1
+        {
+            color:orange;
+            text-align: center;
+        }
+        p
+        {
+            text-align:center;
+            color:black;
+        }
+        form
+        {
+            padding:5px;
+            
+        }
+        
+        
