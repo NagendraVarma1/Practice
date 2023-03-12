@@ -1,11 +1,11 @@
-var obj;
+
 function getTheUserExpenses(event){
     event.preventDefault();
     let amount = document.getElementById('expenses').value;
     let desc = document.getElementById('description').value;
     let category = document.getElementById('category').value;
 
-    obj = {
+    let obj = {
         amount,
         desc,
         category
